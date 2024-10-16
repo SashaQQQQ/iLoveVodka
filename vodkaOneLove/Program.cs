@@ -2,7 +2,13 @@
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("war thunder is my life");
+        Console.WriteLine("Ile pietr ma wieza?");
+        int ile = int.Parse(Console.ReadLine());
+
+        for (int i = 0; i < ile; i++)
+        {
+            Console.WriteLine("Hello World");
+        }
 
     }
 
