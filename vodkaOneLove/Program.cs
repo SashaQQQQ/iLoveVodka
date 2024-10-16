@@ -2,12 +2,12 @@
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Ile pietr ma wieza?");
-        int ile = int.Parse(Console.ReadLine());
+        Console.WriteLine("jak masz na imie?");
+       string ile = Console.ReadLine();
 
-        for (int i = 0; i < ile; i++)
+        foreach(char litera in ile )
         {
-            Console.WriteLine("Hello World");
+            Console.WriteLine(litera);
         }
 
     }
